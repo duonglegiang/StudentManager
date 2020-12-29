@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp">
+
+    <TextView
+        android:id="@+id/text_view_mssv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:text="MSSV : "
+        android:textSize="12sp"/>
+    <TextView
+        android:id="@+id/text_mssv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/text_view_mssv"
+        android:text="20161164"
+        android:textColor="#000000"
+        android:textSize="12sp"/>
+    <TextView
+        android:id="@+id/text_view_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/text_view_mssv"
+        android:text="Họ Tên : "
+        android:textSize="12sp"/>
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/text_view_name"
+        android:layout_below="@+id/text_view_mssv"
+        android:text="Duong Le Giang"
+        android:textColor="#000000"
+        android:textSize="12sp"/>
+    <TextView
+        android:id="@+id/text_view_birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/text_view_name"
+        android:text="Ngày Sinh : "
+        android:textSize="12sp"/>
+    <TextView
+        android:id="@+id/text_birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/text_view_birthday"
+        android:layout_below="@+id/text_view_name"
+        android:text="15/09/1998"
+        android:textColor="#000000"
+        android:textSize="12sp"/>
+    <TextView
+        android:id="@+id/text_view_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_below="@+id/text_view_birthday"
+        android:text="Email : "
+        android:textSize="12sp"/>
+    <TextView
+        android:id="@+id/text_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/text_view_email"
+        android:layout_below="@+id/text_view_birthday"
+        android:text="duonggiang150998@gmail.com"
+        android:textColor="#000000"
+        android:textSize="12sp"/>
+    <TextView
+        android:id="@+id/text_view_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/text_view_email"
+        android:text="Địa Chỉ : "
+        android:textSize="12sp"/>
+    <TextView
+        android:id="@+id/text_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/text_view_address"
+        android:layout_below="@+id/text_view_email"
+        android:text="Nghe An"
+        android:textColor="#000000"
+        android:textSize="12sp"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/text_view_mssv"
+        android:width="24dp"
+        android:height="24dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:buttonTint="@android:color/holo_blue_light"/>
+
+</RelativeLayout>
